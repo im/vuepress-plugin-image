@@ -1,0 +1,29 @@
+{
+  "name": "vuepress-plugin-image",
+  "version": "1.0.0",
+  "description": "vuepress markdown 图片支持设置宽高",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "vuepress dev --debug --no-clear-screen"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/im/vuepress-plugin-image.git"
+  },
+  "keywords": [
+      "vuepress",
+      "markdown"
+  ],
+  "author": "tangxiaomi",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/im/vuepress-plugin-image/issues"
+  },
+  "homepage": "https://github.com/im/vuepress-plugin-image#readme",
+  "dependencies": {
+    "markdown-it-image-lazy-loading": "^1.0.2",
+    "markdown-it-imsize": "^2.0.1",
+    "vuepress": "^1.1.0"
+  }
+}
