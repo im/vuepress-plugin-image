@@ -30,7 +30,7 @@ module.exports = {
 
 ## 图片懒加载
 
-支持Chrome 75的[原生图像延迟加载](https://addyosmani.com/blog/lazy-loading/)
+支持Chrome 75以上的 版本 [原生图像延迟加载](https://addyosmani.com/blog/lazy-loading/)
 
 ```html
 <!-- <img src="example.png" alt="" title="image title" loading="lazy"> -->
