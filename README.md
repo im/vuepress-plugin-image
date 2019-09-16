@@ -2,6 +2,22 @@
 
 
 
+## vuepress 配置
+
+* 安装依赖
+
+```bash
+npm i vuepress-plugin-image -D
+```
+
+```js
+module.exports = {
+    plugins: [
+        ['image']
+    ]
+}
+```
+
 ## 设置图片大小  
 [markdown-it-imsize](https://www.npmjs.com/package/markdown-it-imsize)
 
