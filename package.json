@@ -2,10 +2,11 @@
   "name": "vuepress-plugin-image",
   "version": "1.0.1",
   "description": "vuepress markdown 图片支持设置宽高",
-  "main": "src/index.js",
+  "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "vuepress dev --debug --no-clear-screen"
+    "start": "vuepress dev --debug --no-clear-screen",
+    "build": "vuepress build"
   },
   "repository": {
     "type": "git",

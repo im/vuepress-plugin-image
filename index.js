@@ -3,7 +3,6 @@ module.exports = (options, ctx) => {
         name: 'vuepress-plugin-image',
         extendMarkdown: md => {
             md.set({ breaks: true })
-            console.log(options)
             md.use(require('markdown-it-imsize'))
             md.use(require('markdown-it-image-lazy-loading'))
         }

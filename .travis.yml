@@ -1,0 +1,33 @@
+language: node_js
+node_js:
+    - '10'
+
+# set cache
+cache:
+    directories:
+        - node_modules
+
+install:
+    - npm install
+
+script:
+    - npm run docs:build
+
+after_script:
+    - cd .vuepress/dist
+
+    - git config user.name "${U_NAME}"
+
+    - git config user.email "${U_EMAIL}"
+
+    - git init
+
+    - git add -A
+
+    - git commit -m "deploy"
+
+    - git push -f "https://${GH_TOKEN}@${GH_REPO}" master:${P_BRANCH}
+
+branches:
+    only:
+        - master

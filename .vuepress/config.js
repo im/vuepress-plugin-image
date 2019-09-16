@@ -1,6 +1,7 @@
 module.exports = {
     title: 'vuepress-plugin-image',
+    base: `/vuepress-plugin-image/`,
     plugins: [
-        require('../src/index')
+        require('../index')
     ]
 }
